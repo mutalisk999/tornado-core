@@ -45,8 +45,9 @@ You can see example usage in cli.js, it works both in the console and in the bro
 
 1. `npm install`
 1. `cp .env.example .env`
-1. `npm run build` - this may take 10 minutes or more
-1. `npx ganache-cli`
+1. ~~`npm run build`~~ - this may take 10 minutes or more
+1. `npm run download`
+1. `npx ganache-cli -g 0 -k istanbul`
 1. `npm run test` - optionally runs tests. It may fail on the first try, just run it again.
 
 Use browser version on Kovan:
